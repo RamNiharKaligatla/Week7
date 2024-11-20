@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-float arr(int *p, int l)
+float arr(int a[], int l)
 {
 	int i, s=0;
 	float avg;
 	
 	for(i=0; i<l; i++)
 	{
-		s += p[i];
+		s += a[i];
 	}
 	avg = (float)s/l;
 	
