@@ -13,12 +13,12 @@ int main()
     int *b = (int *)malloc(l2 * sizeof(int));
 
     printf("Elements of array 1: ");
-    for(int i = 0; i < l1; i++)
+    for (int i = 0; i < l1; i++)
     {
         scanf("%d", &a[i]);
     }
     printf("Elements of array 2: ");
-    for(int i = 0; i < l2; i++)
+    for (int i = 0; i < l2; i++)
     {
         scanf("%d", &b[i]);
     }

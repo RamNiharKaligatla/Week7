@@ -9,9 +9,9 @@ int main()
     int l = strlen(a);
 
     char *p = a;
-    for(int i=0; i<=l; i++)
+    for (int i = 0; i <= l; i++)
     {
-        printf("%c", p[l-i]);
+        printf("%c", p[l - i]);
     }
 
     return 0;
